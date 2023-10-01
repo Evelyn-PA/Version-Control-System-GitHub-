@@ -2,17 +2,18 @@
 public class Printer_app {
 
 	public static void main(String[] args) {
-		double number_1 = 10;
-		double number_2 = 5;
+		int number_1 = 10;
+		int number_2 = 5;
 		
 		System.out.println("Printer App");
+		System.out.println("-------------");
 		System.out.print("This app is made by: ");
 		
 		String creator = "Evelyn Nguyen";
 		// print the creator of the app to the console
-		System.out.print(creator);
+		System.out.println(creator);
 		
-
+		System.out.println("Print the first number");
 		System.out.println(number_1);
 		//Print the number 1 to the console
 		//Done
@@ -21,7 +22,7 @@ public class Printer_app {
 		
 		System.out.println(number_1 + " * " + number_2 + " = "+ (number_1*number_2)); //multiply 2 numbers 
 		System.out.println(number_1 + " + " + number_2 + " = "+ (number_1+number_2)); // sum of 2 numbers
-		System.out.println(number_1 + " - " + number_2 + " = "+ (number_1-number_2)); //minus 2 numbers
+		System.out.println(number_1 + " - " + number_2 + " = "+ ((double) number_1- (number_2))); //minus 2 numbers
 		System.out.println(number_1 + " : " + number_2 + " = "+ (number_1/number_2)); //divide 2 numbers
 	}
 
