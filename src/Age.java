@@ -2,7 +2,7 @@
 public class Age {
 
 	public static void main(String[] args) {
-		int age = 70;
+		int age = 65;
 		if (age > 0 && age < 18) {
 			System.out.println("You are underage.");
 			if(age >=15) {
@@ -12,11 +12,11 @@ public class Age {
 		else if (age >= 65) {
 			System.out.println("You are retired.");
 		}
-		else if (age == 18) {
+		if (age == 18) {
 			System.out.println("You can drive a car.");
 		}
 		
-		else {
+		else if (age >= 18) {
 			System.out.println("You are an adult.");
 		}
 		
